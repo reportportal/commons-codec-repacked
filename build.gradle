@@ -6,6 +6,9 @@ description = 'Rest Client. Apache Commons Codec Repack'
 apply plugin: 'java'
 apply from: 'release.gradle'
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
 compileTestJava.options.encoding = 'UTF-8'
 repositories {
     jcenter()
